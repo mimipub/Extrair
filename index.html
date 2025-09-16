@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extração de Dados para Excel</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Extração de Dados</h1>
+            <p>Insira o texto que deseja processar e gerar a planilha.</p>
+        </header>
+        
+        <section id="formulario">
+            <textarea id="texto" placeholder="Cole o texto aqui..." rows="15" cols="80"></textarea><br>
+            <button id="gerarExcel">Gerar Planilha Excel</button>
+        </section>
+        
+        <footer>
+            <p>Desenvolvido por <strong>Ronaldo e C&A</strong></p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
